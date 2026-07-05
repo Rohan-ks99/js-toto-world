@@ -1,7 +1,7 @@
 const accountId =12345
 let accountEmail = "rohan@google.com"
 var accountPassword ="12345"
-accountCity ="Delhi"
+ let accountCity ="Delhi"
 
 //accountId =2 ,not  allowed
 /*prefer not to use var 
@@ -12,3 +12,4 @@ accountPassword ="212121"
 accountCity ="USA"
 console.log(accountId)
 console.table([accountId,accountEmail,accountPassword,accountCity])
+console.log(accountCity)
