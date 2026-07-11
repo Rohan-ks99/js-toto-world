@@ -40,6 +40,25 @@ console.log(1 + 2 +"3");
 //console.log(true) => true
 let game =100
 game++;
-console.log(game)
+console.log(game);
 //study this conversion 
 
+
+/*************************************/
+// Stack (prim)itive),Heap(Non- Primitive)
+//primitive 
+
+let myyoutube = "totoworld"
+let anothername =myyoutube 
+anothername = "whitekira"
+console.log(myyoutube);
+console.log(anothername);
+//non-primitive 
+let userone ={
+    email : "user@google.com",
+    upi :"user@ibl"
+}
+let userTwo = userone
+userTwo.email = "kira@google.com"
+console.log(userone.email);
+console.log(userTwo.email);
